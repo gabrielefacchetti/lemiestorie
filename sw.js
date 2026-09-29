@@ -1,4 +1,4 @@
-const CACHE_NAME = 'storie-v3';
+const CACHE_NAME = 'storie-v4';
 const ASSETS = [
   './',
   './index.html',
@@ -9,6 +9,7 @@ const ASSETS = [
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
+      // Usiamo una strategia più tollerante per evitare blocchi stringenti
       return cache.addAll(ASSETS);
     }).catch(err => console.error("Errore cache iniziale:", err))
   );
