@@ -1,10 +1,21 @@
-const CACHE_NAME = 'storie-v1';
-const ASSETS = ['./', './index.html', './manifest.json'];
+const CACHE_NAME = 'storie-v2';
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS)));
+  e.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => {
+      return cache.addAll([
+        'index.html',
+        'manifest.json',
+        'icon.png'
+      ]).catch(err => console.log("Asset di cache non trovati o icona mancante:", err));
+    })
+  );
 });
 
 self.addEventListener('fetch', (e) => {
-  e.respondWith(caches.match(e.request).then((res) => res || fetch(e.request)));
+  e.respondWith(
+    caches.match(e.request).then((res) => {
+      return res || fetch(e.request);
+    })
+  );
 });
