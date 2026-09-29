@@ -1,0 +1,477 @@
+<DOCTYPE html> 
+<html lang="it"> 
+<head> 
+    <meta charset="Windows-1252"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="manifest" href="manifest.json">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <title>Le Mie Storie</title> 
+    <style> 
+        body { font-family: sans-serif; background-color: black; color: #83b0f7; max-width: 800px; margin: 5px auto; padding: 0px 2px; } 
+        h1 { text-align: center; color: #2c3e50; } 
+        .accordion-container { background: black; border-radius: 4px; box-shadow: 0px 1px 2px rgba(0,0,0,0.1); padding: 5px; } 
+        details { border-bottom: 1px solid #edf2f7; margin-bottom: 3px; padding: 10px; } 
+        summary { font-weight: bold; font-size: 1.1em; cursor: pointer; padding: 5px; list-style: none; } 
+        summary::-webkit-details-marker { display: none; } 
+        .content { padding: 50px 0px; color: white; text-align: justify; } 
+    </style> 
+</head> 
+<body> 
+    <div class="accordion-container"> 
+        <details name="storie"> 
+            <summary>1. L'Avventura del Bosco Incantato</summary> 
+            <div class="content">Immagina di camminare in un bosco dove l'erba ' morbidissima, come il tuo peluche. Senti il profumo dei pini e dei fiori giganti. A un certo punto vedi uno scoiattolo con la coda a batuffolo che ti fa segno di seguirlo: ti porta in una casetta sull'albero segreta, fatta tutta di legno profumato, dove ci sono dei cuscinoni enormi e tu puoi guardare le stelle dal buco del tetto.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>2. Il Pilota del Fuoristrada (o del Trattore)</summary> 
+            <div class="content">Immagina di essere alla guida di una jeep con le ruote giganti, proprio come quelle che piacciono a te. Sei nel fango, ma la tua macchina ' fortissima e sale su per una montagna ripidissima 'Vai [Nome], sei il pilota pi' bravo del mondo'.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>3. Il Cavaliere del Drago Gentile</summary> 
+            <div class="content">Immagina che nel giardino arrivi un drago grande ma con le squame di velluto blu. Tu gli sali sulla schiena, ti tieni stretto alle sue scaglie lisce e lui spicca il volo. Senti l'aria fresca sulla faccia e vedi le case piccole piccole come i Lego. Il drago ti porta sopra una nuvola di zucchero filato dove potete rimbalzare senza cadere mai.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>4. Il Capo Cantiere delle Ruspe</summary> 
+            <div class="content">Immagina di avere il casco giallo e di essere in un cantiere enorme dove ci sono solo ruspe e scavatrici. Tu sei ai comandi della ruspa pi' grande e devi spostare una montagna di sabbia magica che luccica al sole. Ogni volta che sposti la sabbia, trovi sotto un piccolo tesoro: una macchinina nuova, una moneta d'oro o un sasso colorato.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>5. Il Picnic con gli Animali Amici</summary> 
+            <div class="content">Immagina di essere in un prato pieno di margherite. Arrivano un leoncino piccolo, un cane buffo e un orsetto. Avete una tovaglia a quadretti e mangiate la tua merenda preferita. Il leoncino fa le fusa e si addormenta sulla tua pancia, e tu senti il suo calore e il suo respiro calmo che ti aiuta a fare la nanna.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>6. Il Grande Orso Guardiano</summary> 
+            <div class="content">Immagina di essere in una tana caldissima e profumata di miele. L' vive un Orso enorme con la pelliccia pi' folta e morbida che tu abbia mai toccato. Tu ti raggomitoli proprio sulla sua pancia, che si alza e si abbassa lentamente mentre lui respira. Lui ti avvolge con le sue zampe grandi come coperte e ti protegge, mentre fuori cade la neve silenziosa. Senti il suo calore e ti senti al sicuro come in un abbraccio gigante.'</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>7. Il Delfino Saltatore</summary> 
+            <div class="content">Immagina di essere al mare, l'acqua ' trasparente e calda. All'improvviso arriva un delfino che ti invita a fare un giro. Tu ti aggrappi alla sua pinna liscia e lui ti porta a fare dei saltini leggeri sulle onde. Sotto l'acqua vedi pesci coloratissimi che ti salutano e il delfino fa un verso buffo che ti fa ridere tantissimo. Ti senti leggero come una piuma e ogni onda ti culla dolcemente.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>8. Il Safari delle Scimmiette Birbe</summary> 
+            <div class="content">Immagina di essere nella giungla seduto su un'amaca fatta di liane. Arrivano tre scimmiette piccole e simpatiche che vogliono giocare con te. Ti portano delle banane dolcissime e iniziano a fare le capriole sui rami per farti divertire. Una scimmietta ti fa il solletico e poi si accoccola sulla tua spalla per fare un pisolino insieme a te, mentre gli uccellini della giungla cantano una ninna nanna piano piano.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>9. Il Macchinista del Treno dei Sogni</summary> 
+            <div class="content">Immagina di essere nella cabina di un treno a vapore bellissimo, tutto lucido. Tu hai il berretto da capotreno e sei ai comandi Davanti a te c'' una ferrovia magica che passa sopra le nuvole. Ogni volta che tiri la corda, il treno fa un fischio allegro che saluta gli uccellini. Il treno va piano, dondola dolcemente sulle rotaie e ti porta verso una stazione fatta tutta di cuscini morbidi dove ti aspettano per farti le coccole.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>10. L'Astronauta Esploratore di Stelle</summary> 
+            <div class="content">Immagina di indossare una tuta spaziale bianchissima e leggera. Sali su una navicella spaziale che profuma di biscotti appena sfornati. Accendi i motori...'shhh... e voli piano verso la luna. Dalla finestra vedi la Terra che sembra una pallina azzurra. Arrivi sulla Luna e scopri che ' fatta di sabbia magica dove puoi saltare altissimo e restare sospeso a mezz'aria, leggero come una piuma, mentre le stelle brillano solo per te.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>11. Il Capo Cantiere della Casa sull'Albero</summary> 
+            <div class="content">Immagina di avere una cintura piena di attrezzi magici: un martello che non fa rumore e un metro che misura quanto sei diventato alto. Insieme al pap' state costruendo la casa sull'albero pi' grande del mondo. Tu decidi dove mettere le finestre per guardare il bosco e dove mettere il letto-amaca per riposare. Quando avete finito, vi sedete sul ramo pi' robusto a mangiare un gelato gigante mentre il sole tramonta e colora tutto di arancione.'</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>12. Il Pompiere Coraggioso e il Gattino</summary> 
+            <div class="content">Immagina di essere su un camion dei pompieri rosso fiammante con le sirene che fanno un suono bassissimo e rilassante. Non c'' un incendio, ma devi usare la tua scala lunghissima per salvare un gattino che ' rimasto bloccato su una nuvola. Sali piano piano, prendi il gattino tra le braccia (' caldissimo e fa le fusa) e scendi gi'. Tutti ti fanno l'applauso perch' sei stato l'eroe della giornata e il gattino vuole dormire proprio sulle tue gambe.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>13. L'Officina delle Bici Magiche: </summary> 
+            <div class="content">Immagina di essere in un'officina segreta con il pap'. Ci sono attrezzi che brillano e barattoli di vernice luccicante. Insieme montate sulla tua bici dei pedali che ti fanno andare velocissimo e un campanello che suona una musica allegra. Poi uscite e volate sopra un arcobaleno che fa da pista ciclabile</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>14. Il Picnic dei Giganti Buoni: </summary> 
+            <div class="content">Immagina di essere in un prato dove l'erba ' alta come alberi. Arrivano dei giganti gentilissimi che usano le nuvole come cuscini. Ti invitano a fare merenda con loro: mangiate fragole grandi come palloni da calcio e bevete succo di stelle, mentre loro ti raccontano storie bellissime con voci profonde che ti cullano.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>15. Il Sottomarino di Vetro: </summary> 
+            <div class="content">Immagina di essere su un sottomarino tutto di vetro. Sei asciutto e al caldo, e intorno a te vedi pesci luminescenti che fanno i cerchi nell'acqua. Trovi un forziere del tesoro sul fondo del mare, lo apri e dentro ci sono tutte le macchinine che hai sempre sognato, che brillano come gemme.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>16. L'Auto della Polizia delle Stelle: </summary> 
+            <div class="content">Immagina di salire su un'auto della polizia velocissima, tutta blu e bianca, con le sirene che per' fanno un suono dolcissimo come un carillon. Sei tu il capo e devi pattugliare la 'Via Lattea'. Vai velocissimo tra i pianeti e ogni volta che vedi una stella un po' spenta, le dai un colpo di paletta magica e lei ricomincia a brillare fortissimo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>17. Il Cercatore di Dinosauri Buoni: </summary> 
+            <div class="content">Immagina di essere in una giungla magica con un cappello da esploratore. Insieme al pap' trovi delle impronte giganti nel fango. Segui le tracce e trovi un cucciolo di Triceratopo che ha perso la sua palla. Tu gliela riporti e lui, per ringraziarti, ti fa salire sul suo collo per farti vedere la giungla dall'alto.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>18. Il Capitano della Nave dei Pirati Gentili: </summary> 
+            <div class="content">Immagina di essere il capitano di un vascello con le vele colorate. Non cerchi tesori d'oro, ma forzieri pieni di caramelle e nuovi giochi. Navighi su un mare di cioccolata calda (che non scotta) e ogni volta che un'onda tocca la nave, senti un profumo buonissimo di vaniglia che ti culla verso il sonno.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>19. Il Supereroe del Cuscino: </summary> 
+            <div class="content">Immagina di indossare un mantello magico che ti rende invisibile. Puoi volare sopra la tua citt' e vedere tutti i bimbi che dormono. Il tuo superpotere ' lanciare 'polvere di sogni' dalle mani: ogni volta che ne lanci un po', il sogno di quel bambino diventa ancora pi' bello. Poi torni nel tuo letto, che ' la tua base segreta super protetta.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>20. La Mongolfiera di Marshmallow: </summary> 
+            <div class="content">Immagina di salire su una cesta gigante che profuma di vaniglia. Sopra di te c'' un pallone enorme e colorato che ti porta su, in alto, dove l'aria ' fresca. Voli sopra un mare di nuvole che sembrano panna montata: puoi allungare la mano, prenderne un pezzetto e sentire quanto ' soffice tra le dita mentre dondoli piano piano nel cielo blu.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>21. Il Meccanico dei Robot Giganti: </summary> 
+            <div class="content">Immagina di essere in un garage spaziale pieno di robot altissimi. Tu hai un cacciavite magico che fa 'clic-clic' e aggiusta tutto. Insieme al pap', devi oliare le giunture di un robot gigante perch' possa ballare senza fare rumore. Quando finisci, il robot ti ringrazia facendoti sedere sulla sua spalla di metallo lucido, che per' ' calda e comoda come un termosifone.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>22. Il Sommozzatore nella Barriera Corallina: </summary> 
+            <div class="content">Immagina di avere una maschera magica che ti fa respirare sott'acqua come un pesciolino. Nuoti in un mare azzurro e calmo, dove i coralli sembrano castelli di zucchero colorato. Incontri una tartaruga marina vecchissima e saggia che ti invita a fare un giro sul suo guscio liscio. Ti porta a vedere le perle che brillano sul fondo come piccole lampadine notturne.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>23. Il Pilota dell'Aereo di Carta Gigante: </summary> 
+            <div class="content">Immagina di aver costruito un aereo di carta grande come un letto. Ci sali sopra e, con un piccolo salto, spicchi il volo dalla finestra. L'aereo ' leggerissimo e plana dolce sopra i tetti delle case. Vedi i gatti che passeggiano sui camini e le luci delle strade che sembrano puntini luminosi. Ti senti leggero come un soffio di vento mentre l'aereo ti riporta piano sul tuo cuscino.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>24. Il Giardiniere dei Fiori Musicali: </summary> 
+            <div class="content">Immagina di avere un annaffiatoio d'oro. Ogni volta che dai l'acqua a un fiore nel tuo giardino magico, quel fiore inizia a suonare una nota dolcissima. Insieme create una melodia che fa addormentare tutte le farfalle. I petali dei fiori sono grandi come coperte e ti avvolgono profumando di pulito e di primavera.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>25. Il Pilota del Gatto delle Nevi: </summary> 
+            <div class="content">Immagina di essere su una montagna altissima, tutta coperta di neve bianca e scintillante. Tu sei alla guida di un Gatto delle Nevi gigante con i cingoli che fanno 'crac-crac' sul ghiaccio. Hai i fari accesissimi che illuminano il bosco come se fosse giorno. Insieme al pap', spianate la strada per tutti gli sciatori, e quando avete finito vi rifugiate in una baita di legno che profuma di cioccolata calda e caminetto acceso.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>26. L'Archeologo dei Dinosauri d'Oro: </summary> 
+            <div class="content">Immagina di avere un pennello magico e di essere in un deserto di sabbia caldissima. Scavi piano piano e... tac Trovi l'osso di un T-Rex che brilla come l'oro. Mentre lo pulisci, l'osso inizia a fluttuare e ti mostra come correvano i dinosauri milioni di anni fa. Ti senti un grande scopritore e metti il tuo tesoro in uno zaino magico che non pesa mai.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>27. Il Comandante della Portaerei: </summary> 
+            <div class="content">Immagina di essere su una nave enorme, cos' grande che sopra ci sono le piste per gli aerei. Tu hai la radio e dai i comandi: 'Aereo blu, puoi atterrare'. Gli aerei scendono piano come piume e si parcheggiano vicino a te. Il mare intorno ' liscio come l'olio e la nave dondola cos' dolcemente che ti sembra di essere su un'amaca gigante sotto il sole.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>28. Il Viaggio sul Dorso della Balena Canterina: </summary> 
+            <div class="content">Immagina di tuffarti in un oceano che sembra di seta. Arriva una balena grande come una casa, con la pelle liscia e fresca. Ti siedi sul suo dorso e lei inizia a cantare una canzone bassissima, che senti vibrare nel pancino e ti rilassa tutto. Ti porta a vedere le grotte sottomarine piene di cristalli che cambiano colore: blu, verde e viola, come le luci della tua cameretta.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>29. Il Pittore delle Nuvole: </summary> 
+            <div class="content">Immagina di avere un pennello lungo lungo che arriva fino al cielo. Puoi intingerlo nei tramonti e colorare le nuvole di arancione, rosa e lilla. Ogni nuvola che colori diventa un animale: una nuvola-coniglio, una nuvola-elefante... Poi, ne scegli una che sembra un grande cuscino di panna, ci salti sopra e lei ti riporta piano piano nel tuo letto, lasciandoti un profumo di zucchero filato.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>30. L'Ingegnere dei Ponti di Lego Giganti:'</summary> 
+            <div class="content">Immagina di essere in una citt' dove tutto ' fatto di mattoncini colorati. Tu sei il capo ingegnere e insieme al pap' state costruendo un ponte altissimo che attraversa un fiume di limonata fresca. I mattoncini si incastrano con un 'clack' perfetto e ogni pezzo che metti brilla come una lampadina. Quando il ponte ' finito, ci passi sopra con una macchinina a pedali che non fa rumore e senti quanto ' solido e sicuro sotto le tue ruote." <br><br> Il Domatore di Nuvole-Leone:'"Immagina di salire su una scala d'oro che arriva fino in cielo. L' trovi una nuvola gigante che ha la forma di un leone con una criniera di panna montata. Non ruggisce, ma fa le fusa come un gattino. Tu gli sali in groppa, affondi le mani nella sua pelliccia soffice e lui corre tra le stelle, saltando da un pianeta all'altro come se fossero sassi in un ruscello. Ti senti il re del cielo, altissimo e leggero.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>31. Il Guardiano del Faro dei Desideri:'</summary> 
+            <div class="content">Immagina di essere in cima a un faro altissimo in mezzo all'oceano. La scala a chiocciola profuma di mare e legno vecchio. Tu hai la chiave d'oro per accendere la grande lampada in cima. Quando giri la chiave, il faro emette una luce calda e dorata che illumina tutte le barchette dei sogni. Tu guardi il mare scuro e calmo, ti senti al sicuro nella tua torre e sai che la tua luce protegge tutti i pesciolini che dormono sotto di te.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>32. Il Pilota della Mongolfiera-Frutto:'</summary> 
+            <div class="content">Immagina di volare su una mongolfiera che ha la forma di una fragola gigante o di una mela rossa. La cesta ' fatta di biscotto intrecciato e profuma di cannella. Voli sopra una foresta dove gli alberi hanno le foglie di velluto blu. Ogni tanto la mongolfiera scende piano e tu puoi toccare le punte degli alberi, che sono morbide come il tuo peluche. Il vento ti accarezza i capelli e ti culla come se fossi in un'amaca nel cielo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>33. Il Cavaliere della Notte Stellata:'</summary> 
+            <div class="content">Immagina di avere un'armatura d'argento che non pesa niente, ' leggera come la tua maglietta. Hai un cavallo bianco con gli zoccoli che non fanno rumore, nemmeno sul pavimento. Cavalchi in un prato di fiori che brillano al buio come lucciole. Il tuo cavallo ti porta verso un castello fatto di cuscini e coperte calde, dove le finestre sono fatte di zucchero trasparente. Entri dentro, ti togli l'armatura e ti senti avvolto da un calore dolcissimo che ti fa chiudere gli occhi.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>34. Il Custode del Giardino dei Cristalli:'</summary> 
+            <div class="content">Immagina di camminare in un prato dove l'erba ' fatta di fili di seta blu. Ogni fiore ' un cristallo colorato che, se lo tocchi piano, emette un suono di campanellino. Tu hai un mantello di velluto che ti tiene caldissimo e cammini tra questi fiori che illuminano il sentiero. Arrivi a una fontana dove l'acqua ' cioccolata bianca fresca: ne bevi un sorso e ti senti la pancia calda e felice, poi ti sdrai sull'erba di seta che ti avvolge come una coperta.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>35. Il Pilota dell'Elicottero Salva-Animali:'</summary> 
+            <div class="content">Immagina di avere le cuffie da pilota e di essere ai comandi di un elicottero con le pale che girano piano, facendo un soffio d'aria fresca. Devi sorvolare la giungla per trovare un cucciolo di elefante che ha sonno. Calate gi' una rete fatta di fili di zucchero e lo tirate su piano piano. Il cucciolo si accoccola vicino a te, senti la sua proboscide morbida sulla mano e insieme volate verso la vostra tana sicura sopra una montagna di panna.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>36. Il Capitano del Veliero delle Isole Galleggianti:'</summary> 
+            <div class="content">Immagina di essere su una nave di legno profumato con le vele fatte di lenzuola bianche e pulite. Il mare non ' d'acqua, ma di gelatina azzurra che ammortizza ogni onda. Navighi tra isole che galleggiano nel cielo: un'isola ' fatta di fragole, un'altra di giocattoli gommosi. Tu lanci l'ancora (che ' un biscotto gigante) vicino all'isola del sonno, dove la sabbia ' polvere di stelle tiepida che ti massaggia i piedini.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>37. Il Costruttore della Cupola di Luce:'</summary> 
+            <div class="content">Immagina di avere una bacchetta magica trasparente. Sei nel tuo letto e, muovendo la bacchetta, crei sopra di te una cupola di luce dorata che ti protegge come uno scudo spaziale. Dentro la cupola l'aria profuma di nanna e di buono. Puoi vedere le stelle fuori, ma niente pu' entrare, sei nel posto pi' sicuro dell'universo. La cupola diventa sempre pi' piccola e luminosa, finch' non si trasforma in un puntino di luce che ti entra nel cuore e ti scalda tutto.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>38. Il Giardiniere dei Fiori a Molla:</summary> 
+            <div class="content">Immagina di camminare in un prato dove l'erba ' fatta di velluto verde smeraldo. Ogni fiore ha uno stelo magico che sembra una molla: se lo tocchi, il fiore fa un piccolo 'plin' e sprigiona un profumo di zucchero a velo. Ti sdrai al centro del prato e i fiori si piegano piano verso di te, coprendoti come una coperta leggerissima di petali colorati. Sotto di te, la terra ' tiepida e morbida come un marshmallow gigante che ti culla mentre il prato inizia a sussurrare una ninnananna fatta di vento tra le foglie.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>39. Il Pilota della Nuvola di Zucchero:</summary> 
+            <div class="content">Immagina di salire su una nuvola che ' atterrata proprio sul tuo balcone. Non ' una nuvola fredda, ma ' fatta di fili di cotone caldi e profuma di vaniglia. Ti ci siedi sopra e lei si alza piano piano, fluttuando nel cielo blu scuro. Mentre voli, puoi toccare le stelle che sono morbide come palline di spugna e brillano di una luce che non scotta. La nuvola ti porta sopra un bosco di alberi che al posto delle foglie hanno piume di cigno: ogni volta che passi, le piume fanno un fruscio dolce che ti chiude gli occhietti.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>40. Il Subacqueo della Bolla di Sapone:</summary> 
+            <div class="content">Immagina di essere dentro una bolla di sapone gigante, ma ' una bolla speciale che non scoppia mai ed ' caldina come l'acqua del bagnetto. Sei nel fondo dell'Oceano della Calma, dove l'acqua ' trasparente come il vetro. Intorno a te nuotano pesciolini fatti di luce che lasciano una scia di brillantini. Non c'' rumore, solo il suono dolce del tuo respiro. La bolla si appoggia piano su un letto di alghe che sembrano nastri di seta azzurra. Ti raggomitoli l' dentro, al sicuro, guardando i pesciolini che spengono le loro luci uno dopo l'altro per andare a dormire insieme a te.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>41. Il Viaggiatore della Ferrovia di Cioccolata:</summary> 
+            <div class="content">Immagina di salire su un trenino d'argento che corre su rotaie fatte di cioccolato fondente. Il treno non fa rumore, scivola via silenzioso come un respiro. Guardando fuori dal finestrino, vedi colline di panna montata e fiumi di sciroppo di fragola che scorrono lenti. Il vagone ' foderato di soffice moquette di muschio profumato e il sedile ti abbraccia come un grande orsacchiotto. Mentre il trenino attraversa la Galleria del Silenzio, le pareti brillano di mille lucciole d'oro che ti cullano con il loro battito d'ali leggero, portandoti dritto nel mondo dei sogni.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>42. Il Bibliotecario dei Libri di Seta:</summary> 
+            <div class="content">Immagina di entrare in una biblioteca dove i libri non sono di carta, ma hanno pagine fatte di seta purissima. Quando ne sfogli uno, non leggi parole, ma senti immagini che ti accarezzano il viso. Un libro racconta di un castello fatto di nuvole, un altro di un gattino di nebbia che fa le fusa sulla tua spalla. Ti siedi su una poltrona fatta di petali di rosa giganti e apri il Libro della Notte: dalle sue pagine esce una polvere di stelle color lavanda che riempie la stanza. Chiudi gli occhi e senti che ogni storia diventa un sogno morbido che ti avvolge come un pigiama di velluto.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>43. Il Pittore del Cielo di Velluto:</summary> 
+            <div class="content">Immagina di avere in mano un pennello magico fatto con un raggio di luna. Sei seduto sulla cima di una montagna di zucchero filato e davanti a te c'' il cielo come una grande tela scura. Con un tocco leggero, dipingi una scia di polvere d'argento che diventa un sentiero per le stelle cadenti. Ogni volta che muovi il pennello, senti un suono di campanellini di vetro che cantano una melodia lentissima. Il cielo sopra di te diventa un soffitto di velluto blu profondo, caldo e protettivo. Ti sdrai sulla cima morbida della montagna, guardando il tuo capolavoro, mentre l'universo intero ti rimbocca le coperte con un raggio di luce pallida.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>44. Il Guardiano del Bosco di Marshmallow:</summary> 
+            <div class="content">Immagina di camminare in un bosco dove gli alberi hanno tronchi di cannella e chiome fatte di soffice zucchero filato rosa. Non c'' gravit', quindi ogni tuo passo ' un salto leggero che ti fa rimbalzare su un prato di marshmallow giganti. Se abbracci un albero, questo ti regala un calore dolce, come quello di una tazza di latte caldo. Ti arrampichi su un ramo fatto di liquirizia morbida e trovi un nido di piume di nuvola. Ti ci sdrai dentro e senti che il bosco intorno a te inizia a respirare piano, a ritmo con il tuo cuore, mentre le foglie di zucchero cadono lente come fiocchi di neve che non bagnano, ma accarezzano.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>45. Il Capitano del Galeone di Carta Velina:</summary> 
+            <div class="content">Immagina di essere il capitano di una barchetta fatta di carta velina color oro, che naviga su un mare di velluto blu scuro. Le onde non scuotono la barca, ma la dondolano come una culla magica. Al posto del vento, sono i sospiri delle stelle a spingere le vele di pizzo. Guardando nell'acqua, vedi che il fondo ' coperto di perle che brillano come piccole lampadine da notte. Ti sdrai sul ponte della barca, che ' soffice come un piumino d'oca, e guardi la scia d'argento che lasci dietro di te. Il mare sussurra 'shhh...' ogni volta che accarezza i fianchi della barca, invitandoti a lasciarti andare al sonno pi' profondo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>46. L'Orologiaio del Tempo Lento:</summary> 
+            <div class="content">Immagina di entrare in una casetta di pan di zenzero dove vive un vecchio orologiaio che aggiusta il tempo. Qui gli orologi non fanno 'tic-toc', ma emettono un suono dolce come gocce di miele che cadono in un piattino. L'orologiaio ti regala un piccolo orologio da taschino fatto di ghiaccio che non si scioglie: quando lo apri, il tempo intorno a te si ferma e tutto diventa calmo e silenzioso. La stanza si riempie di un profumo di biscotti appena sfornati e le ombre sui muri iniziano a ballare un valzer lentissimo. Ti rannicchi su un tappeto di lana di pecora altissima, sapendo che stanotte il tempo scorrer' solo per farti riposare tutto il necessario.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>47. Il Sarto dei Vestiti di Vento:</summary> 
+            <div class="content">Immagina di entrare in un atelier fatto di cristallo di rocca, dove un sarto gentile cuce vestiti fatti di brezza serale. Ti porge una mantella intessuta con i fili d'oro del tramonto e foderata di polvere di luna. Quando la indossi, ti senti leggero come una piuma che danza nell'aria. Il sarto ti fa accomodare su un divano di petali di margherita che profuma di pulito. Intorno a te, i rocchetti di filo color pastello iniziano a srotolarsi da soli, creando disegni geometrici che brillano nel buio. Ti avvolgi nella tua mantella magica, che emana un calore rassicurante, e senti che ogni muscolo del tuo corpo si scioglie come neve al sole.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>48. Il Pastore delle Pecorelle di Nuvola:</summary> 
+            <div class="content">Immagina di essere su una collina altissima, cos' alta che puoi toccare il soffitto del cielo. Sei il pastore di un gregge di pecorelle speciali: non hanno lana, ma sono fatte di nuvole soffici e profumano di talco. Se ne accarezzi una, la tua mano affonda in una morbidezza infinita che ti fa dimenticare ogni stanchezza. Le pecorelle saltano sopra piccoli ruscelli di latte tiepido che scorrono tra l'erba di seta. Ti sdrai sulla schiena della pecorella pi' grande, che ' larga come un letto matrimoniale, e lei inizia a dondolarti lentamente seguendo il ritmo delle stelle che si accendono. Il suo belato ' un sussurro dolcissimo che ti dice che ' ora di riposare.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>49. Il Custode del Faro delle Lucciole:</summary> 
+            <div class="content">Immagina di trovarti in cima a un faro altissimo che svetta su un mare di velluto nero. Ma questo faro non ha una lampadina: dentro la lanterna vivono milioni di lucciole che brillano di una luce verde smeraldo che non abbaglia mai. Il pavimento del faro ' coperto da tappeti di muschio fresco che solleticano i piedi. Fuori, le onde del mare non sbattono contro gli scogli, ma li accarezzano con un suono che sembra il fruscio di mille lenzuola di seta che si distendono. Ti siedi vicino alla grande vetrata e guardi le lucciole che danzano un valzer silenzioso. Il loro calore ti avvolge come un abbraccio invisibile, e mentre la luce pulsa piano piano, i tuoi occhi diventano pesanti e felici.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>50. Il Pasticcere dei Sogni di Neve:</summary> 
+            <div class="content">Immagina di entrare in una cucina dove le pareti sono fatte di cioccolato bianco e il pavimento ' una distesa di granella di nocciole morbida. Un pasticcere gentile, con un cappello alto fatto di schiuma di latte, ti porge una tazza di cioccolata che non scotta, ma scalda il cuore. Ogni sorso sa di un ricordo bello: una risata, un abbraccio, un gioco d'infante. Ti siedi su uno sgabello di caramello gommoso e guardi fuori dalla finestra, dove nevica zucchero a velo che cade lentissimo, coprendo tutto con un silenzio zuccherino. Ti senti coccolato da quel tepore dolce, mentre il profumo di biscotti alla cannella ti culla verso un sonno profondissimo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>51. L'Architetto dei Castelli di Sapone:</summary> 
+            <div class="content">Immagina di volare sopra una valle dove i castelli non sono fatti di pietra, ma di bolle di sapone giganti dai riflessi arcobaleno. Entri nel castello pi' grande e scopri che i pavimenti sono elastici come tappeti elastici fatti di gelatina alla menta. Ogni stanza ha pareti trasparenti che mostrano un cielo pieno di pianeti fatti di sorbetto al limone. Ti sdrai su un letto di piume di fenicottero che fluttua a mezz'aria, e ogni volta che respiri, la stanza cambia colore, passando dal lilla al blu notte. Il castello dondola dolcemente nel vento, come una barca su un lago calmo, e tu ti senti leggero, protetto da una bolla di pace infinita.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>52. Il Musicista dell'Arpa d'Acqua:</summary> 
+            <div class="content">Immagina di sederti sulla riva di un ruscello dove l'acqua non scorre, ma suona. Ogni goccia che cade su una pietra preziosa emette una nota cristallina, creando una melodia che sembra un massaggio per la mente. Un musicista invisibile pizzica fili di pioggia sottilissimi tesi tra i rami di un salice piangente fatto di fili d'argento. Ti distendi su un prato di trifogli giganti che sono morbidi come cuscini di piumino. Il suono dell'acqua ti avvolge le orecchie come una sciarpa di lana calda, allontanando ogni pensiero. Mentre le note diventano sempre pi' lente e basse, senti che il tuo corpo diventa parte della musica, scivolando in un sogno fatto di armonia e luce soffusa.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>53. L'Astronauta dell'Altalena d'Argento:</summary> 
+            <div class="content">Immagina di sederti su un'altalena appesa a due fili di seta che scendono direttamente dal cuore della Luna. Non sei nel vuoto freddo, ma in uno spazio che profuma di bucato steso al sole. Ogni volta che vai avanti e indietro, l'altalena fende l'aria con un suono di arpa leggiera. Sotto di te, i pianeti sembrano enormi gomitoli di lana colorata su cui potresti rimbalzare senza farti male. Ti dai una piccola spinta e l'altalena ti porta cos' in alto che puoi accarezzare la coda di una cometa, che ' fatta di polvere di stelle fresca e vellutata. Ti rannicchi sul sedile dell'altalena, che diventa un nido caldo, e lasci che il dondolio dell'universo ti chiuda gli occhi.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>54. Il Musicista delle Gocce di Rugiada:</summary> 
+            <div class="content">Immagina di essere in un giardino segreto all'alba, dove ogni foglia ospita una piccola goccia di rugiada che brilla come un diamante. Hai in mano una bacchetta magica fatta di legno di sandalo. Quando tocchi una goccia, questa non cade, ma emette una nota cristallina e purissima. Componi una melodia toccando le gocce una dopo l'altra: il suono ' cos' dolce che i fiori intorno a te iniziano a schiudersi per ascoltare. Ti siedi su un prato di muschio che sembra un tappeto di peluche e senti la musica che si trasforma in una sciarpa invisibile di calore intorno al tuo collo. Le note diventano sempre pi' lente, come un battito di ciglia, finch' il giardino intero non si addormenta insieme a te.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>55. Il Postino delle Lettere di Nuvola:</summary> 
+            <div class="content">Immagina di cavalcare un grande uccellino azzurro che ha le piume fatte di velluto. Porti con te una borsa piena di lettere scritte su petali di magnolia. Queste lettere non contengono parole, ma sensazioni: una lettera sa di abbraccio, un'altra del calore del sole d'inverno, un'altra ancora del profumo della pioggia estiva. Le consegni alle stelle che riposano nel cielo diurno. Ogni volta che ne posi una, la stella brilla di una luce soffusa e ti ringrazia con un soffio di vento tiepido. Ti sdrai tra le ali dell'uccellino, che sono ampie e accoglienti come una trapunta, e mentre volate sopra un mare di latte e miele, senti che il tuo cuore diventa leggero e pronto per sognare.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>56. L'Esploratore della Grotta dei Cristalli Canterini:</summary> 
+            <div class="content">Immagina di entrare in una grotta dove le pareti non sono di roccia, ma di cristalli color pastello che emanano una luce soffusa. Il pavimento ' coperto da una sabbia finissima che sembra zucchero a velo e che tiene i tuoi piedi al calduccio. Ogni volta che sfiori un cristallo, questo vibra emettendo un ronzio basso e rilassante, simile alle fusa di un gatto gigante. Al centro della grotta c'' un laghetto di acqua di rose dove galleggiano ninfee di panna. Ti distendi su una di esse e la ninfea inizia a navigare lentamente, seguendo il ritmo dei cristalli che cantano una ninnananna millenaria. Ti senti protetto dal cuore della terra, avvolto in un silenzio che sa di pace infinita.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>57. Il Giostraio delle Bolle di Luce:</summary> 
+            <div class="content">Immagina di arrivare in una piazza fatta di marzapane bianco, dove un giostraio gentile soffia dentro un cerchietto d'oro. Invece di bolle di sapone, crea grandi sfere di luce dorata che fluttuano lente nell'aria profumata di fragole. Ne scegli una, ci entri dentro e scopri che l'interno ' foderato di piumino d'oca caldissimo. La bolla si stacca da terra e inizia a danzare nel cielo notturno, rimbalzando dolcemente contro altre bolle come se fossero palloncini di velluto. Guardi fuori e vedi il mondo sotto di te che diventa una coperta patchwork di colori pastello. Ti raggomitoli nel calore della tua sfera lucente, sentendo solo il suono ovattato di un carillon lontano che ti accompagna verso il primo sogno.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>58. L'Archeologo dei Tesori di Marshmallow:</summary> 
+            <div class="content">Immagina di scavare in una duna di sabbia che in realt' ' fatta di zucchero a velo finissimo e fresco. Sotto la superficie, trovi tesori incredibili: monete di cioccolato al latte che brillano come specchi e collane di perle che sono in realt' piccoli marshmallow al gusto di violetta. Ogni tesoro che tocchi emette un calore rassicurante, come quello di una borsa dell'acqua calda sotto le coperte. Ti siedi in una nicchia della duna, che si modella perfettamente intorno alla tua schiena come una poltrona di schiuma. Il vento soffia piano tra le dune, creando un fischio dolce che sa di vaniglia, e tu ti senti il cercatore di tesori pi' riposato e felice dell'universo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>59. Il Direttore d'Orchestra dei Grilli di Seta:</summary> 
+            <div class="content">Immagina di dirigere un concerto seduto su un trono di petali di peonia. I tuoi musicisti sono piccoli grilli con le ali fatte di seta verde, che non friniscono, ma suonano minuscoli violini di legno di cannella. Con un gesto lento della mano, chiedi loro di suonare la 'Sinfonia del Riposo'. La musica che sale dal prato ' cos' morbida che sembra di poterla toccare, come una nebbia tiepida che ti avvolge le gambe e le braccia. Un grillo pi' coraggioso si posa sulla tua spalla e inizia a sussurrarti una melodia segreta direttamente all'orecchio. Chiudi gli occhi, sentendo il profumo dell'erba tagliata e del gelsomino, mentre l'orchestra abbassa il volume fino a diventare un respiro solo, uguale al tuo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>60. Il Collezionista di Raggi di Luna:</summary> 
+            <div class="content">Immagina di avere una scatola fatta di guscio di noce magico, foderata di raso azzurro. Vai in giardino e, con un retino fatto di ragnatela d'argento, catturi i raggi della luna che filtrano tra i rami degli alberi. Ogni raggio che prendi si trasforma in un filo di lana luminosa e calda. Quando la scatola ' piena, intrecci questi fili per creare una sciarpa infinita che ti avvolge tutto, dalla testa ai piedi. La sciarpa emana una luce pallida che scaccia ogni ombra e profuma di sogni puliti. Ti distendi su un'amaca fatta di trecce di nuvola e lasci che il calore della luna ti sciolga ogni pensiero, trasformandoti in un puntino luminoso nel grande abbraccio della notte.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>61. Il Guardaboschi degli Alberi di Panna:</summary> 
+            <div class="content">Immagina di passeggiare in un bosco dove gli alberi non hanno corteccia dura, ma un tronco soffice che sembra panna montata solidificata. Le radici affondano in un terreno di polvere di cacao che attutisce ogni rumore. Ti fermi vicino a un ruscello dove invece dell'acqua scorre succo di mirtillo fresco e limpidissimo. Ti appoggi a un albero e questo, invece di restare fermo, ti abbraccia con i suoi rami fatti di liquirizia dolce e flessibile. Senti il battito lento della foresta, un 'tum-tum' calmo che ti regolarizza il respiro. Ti lasci scivolare ai piedi dell'albero, su un letto di foglie che sembrano fazzoletti di cotone, e senti che il bosco ti sta proteggendo come un grande castello di zucchero.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>62. Il Tessitore dei Tappeti di Nebbia:</summary> 
+            <div class="content">Immagina di entrare in una torre fatta di vetro soffiato, dove un tessitore gentile usa un telaio di legno di cedro per intrecciare i fili della nebbia mattutina. La nebbia non ' fredda, ma sembra vapore di latte caldo e profuma di pulito. Il tessitore ti invita a sederti su un tappeto appena finito, che galleggia a pochi centimetri dal suolo: ' cos' soffice che le tue mani affondano come in una nuvola di panna. Mentre il tappeto inizia a ondeggiare lentamente, senti che ogni filo di nebbia assorbe i tuoi pensieri pesanti, trasformandoli in bolle di sapone leggere che volano via dalla finestra. Ti distendi su quel letto fluttuante, sentendo il calore del sole che sorge e che colora la nebbia di un rosa tenerissimo, cullandoti verso un riposo profondo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>63. Il Custode delle Lanterne di Miele:</summary> 
+            <div class="content">Immagina di camminare in un bosco di querce giganti dove, appese ai rami, brillano migliaia di lanterne fatte di cera d'api dorata. All'interno non c'' fuoco, ma un raggio di sole intrappolato che brilla piano, emanando un calore dolce e un profumo di miele e fiori di campo. Il custode del bosco ti porge una lanterna piccola e leggera come una piuma. Quando la tieni tra le mani, senti un calore che ti sale dalle dita fino al cuore, sciogliendo ogni muscolo. Ti sdrai in un incavo di un tronco che ' foderato di muschio cos' alto da sembrare un materasso di velluto. Le lanterne intorno a te iniziano a pulsare a ritmo col tuo respiro, creando un guscio di luce dorata che ti protegge e ti rassicura mentre chiudi gli occhi.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>64. L'Idraulico delle Fontane di Cioccolato Bianco:</summary> 
+            <div class="content">Immagina di trovarti in un giardino segreto dove al centro svetta una fontana scolpita nel ghiaccio che non gela mai. Dalle sue bocche non esce acqua, ma una cascata silenziosa di cioccolato bianco fuso, tiepido e vellutato. Il rumore della cascata non ' uno scroscio, ma un 'frrr' delicato, come le fusa di mille gattini. Ti avvicini e scopri che il bordo della fontana ' fatto di biscotti caldi appena sfornati. Ti siedi l' vicino e il vapore profumato di vaniglia ti avvolge la faccia come una sciarpa di seta. Immergi un dito nel cioccolato e senti una sensazione di pace che si diffonde in tutto il corpo. Ti rannicchi su un prato di petali di gelsomino, ascoltando il canto fluido della fontana che ti promette sogni dolcissimi e senza fine.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>65. Il Geografo delle Isole di Piumino:</summary> 
+            <div class="content">Immagina di volare sopra un oceano di marmellata di mirtilli, dove galleggiano piccole isole fatte interamente di piumino d'oca bianco. Sei il geografo che deve esplorarle: atterri su un'isola che ' morbida come un enorme marshmallow e profuma di talco per bambini. Non ci sono rocce, solo colline di ovatta azzurra che puoi scalare con un dito. Ti siedi sulla riva, dove le onde di marmellata toccano la costa con un suono appiccicoso e dolce, lasciando una scia di zucchero filato. Il cielo sopra di te ' una trapunta di stelle cucite a mano che emanano una luce soffusa. Ti scavi un piccolo nido nel piumino dell'isola, sentendo che la terra sotto di te ' tiepida e accogliente, pronta a cullarti nel mare dei sogni pi' calmi.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>66. L'Orafo delle Gocce di Luna:</summary> 
+            <div class="content">Immagina di entrare in un laboratorio sotterraneo dove le pareti sono fatte di cioccolato fondente e l'aria profuma di menta fresca. Un orafo gentile, con grandi occhiali di cristallo, usa una pinzetta d'argento per raccogliere i riflessi della luna dalle pozzanghere di latte. Li modella piano piano, trasformandoli in piccoli anelli e ciondoli che non sono duri, ma morbidi come gelatina alla vaniglia. Ti regala una collana fatta di queste gocce lucenti: quando la indossi, senti un calore calmo che si diffonde sul petto, allontanando ogni pensiero pesante. Ti sdrai su un banco di lavoro fatto di pan di spagna soffice, mentre l'orafo continua a battere col suo martelletto di feltro, creando un ritmo lento che ti accompagna verso il sonno.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>67. Il Capitano della Funivia di Zucchero Filato:</summary> 
+            <div class="content">Immagina di salire su una cabina di vetro rotonda, appesa a un lunghissimo filo di liquirizia che unisce due montagne di meringa. La cabina ' foderata di cuscini di marshmallow rosa e l'aria all'interno sa di caramella mou. Mentre la funivia si alza piano e senza un rumore, guardi fuori e vedi che stai attraversando una tempesta di neve fatta interamente di zucchero a velo che cade lenta, senza bagnare. Il capitano della cabina accende una piccola stufa che brucia rametti di cannella, riempiendo l'ambiente di un calore rassicurante. Ti rannicchi sul sedile morbido, guardando i fiocchi bianchi che si appoggiano sul vetro e si sciolgono in gocce di sciroppo dolce, mentre il dondolio regolare del cavo ti chiude gli occhi.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>68. Il Falconiere delle Farfalle di Velluto:</summary> 
+            <div class="content">Immagina di trovarti in una radura segreta dove l'erba ' fatta di fili di ciniglia verde smeraldo. Sul tuo braccio, protetto da un guanto di soffice pelle scamosciata, si posa una farfalla gigante con le ali grandi come lenzuola, fatte di velluto blu notte. Non vola velocemente, ma batte le ali con una lentezza ipnotica, creando uno spostamento d'aria che profuma di lavanda e talco. La farfalla ti invita a salire sul suo dorso morbido e caldo. Appena ti sdrai, si alza in volo sfiorando le cime degli alberi di zucchero filato. Il fruscio delle sue ali di velluto contro l'aria ' il suono pi' calmo che tu abbia mai sentito, una carezza continua che ti culla mentre l'intera radura si spegne sotto un cielo di stelle.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>69. Il Collaudatore dei Cuscini di Schiuma di Latte:</summary> 
+            <div class="content">Immagina di lavorare in una fabbrica magica situata sopra una nuvola, dove si producono i letti per i sogni pi' belli. Il tuo compito ' testare i nuovi cuscini fatti di schiuma di latte appena munito e condensato. Ti stendi su un enorme materasso di pasta frolla calda e appoggi la testa: il cuscino si adatta perfettamente alla forma del tuo collo, sprofondando con un suono soffice che sembra un 'pfff' delicato. Intorno a te, piccole fontane spruzzano gocce di essenza di camomilla e miele nell'aria. Senti che ogni muscolo del viso si rilassa, mentre la schiuma di latte ti avvolge le orecchie isolandoti da qualsiasi rumore del mondo esterno, lasciando spazio solo al battito calmo del tuo cuore.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>70. Il Vetraio dei Sogni di Cristallo di Zucchero:</summary> 
+            <div class="content">Immagina di entrare nella bottega di un artigiano che soffia il vetro, ma al posto della sabbia usa zucchero cristallizzato purissimo. Con la sua canna d'oro, soffia grandi sfere trasparenti che all'interno racchiudono piccoli mondi: in una c'' un gattino di nuvola che dorme, in un'altra un ruscello di cioccolata che scorre. L'artigiano ti porge una sfera calda, grande come un pallone da spiaggia, e ti invita ad abbracciarla. Quando stringi il cristallo di zucchero, senti che il suo calore scioglie tutta la stanchezza accumulate nelle gambe e nelle braccia. Ti siedi su un mucchio di trucioli di cocco disposti sul pavimento, tenendo stretta la tua sfera luminosa, mentre la luce dorata che emana dipinge ombre rilassanti sulle pareti di pan di zenzero.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>71. Il Marinaio del Fiume di Caramello:</summary> 
+            <div class="content">Immagina di navigare su una zattera fatta di tronchi di cannella legati con fili di zucchero filato. Ti trovi sull'Oceano della Dolcezza, e stai risalendo un fiume di caramello biondo e tiepido che scorre lentissimo tra sponde di biscotto. Non hai bisogno di remi: la corrente ' cos' dolce che la zattera scivola da sola, emettendo un suono morbido ogni volta che accarezza il caramello. Ti sdrai sulla schiena, usando un sacco di zucchero di canna come cuscino, e guardi il cielo dove le nuvole hanno la forma di soffici bign'. Il vapore caldo che sale dal fiume ti avvolge come una coperta termica, e ogni respiro ti riempie i polmoni di un profumo rassicurante di dolce fatto in casa.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>72. Il Guardiano del Frutteto delle Stelle:</summary> 
+            <div class="content">Immagina di passeggiare in un frutteto notturno dove gli alberi hanno rami d'argento e, al posto delle mele, fanno nascere piccole stelle lucenti. Il terreno ' coperto da un muschio soffice che profuma di mirtillo e che tiene i piedi caldi. Il guardiano del frutteto ti porge un cesto intrecciato con fili di seta e ti invita a raccogliere la stella pi' bassa. Quando la tocchi, la stella si schiude rilasciando un vapore tiepido al profumo di camomilla e vaniglia. Ti sdrai ai piedi del tronco pi' grande, che ti avvolge come una poltrona, mentre le stelle sopra di te iniziano a pulsare lentamente a ritmo con il tuo cuore, cullandoti verso un sonno calmo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>73. L'Ingegnere dei Ponti di Arcobaleno di Notte:</summary> 
+            <div class="content">Immagina di camminare sopra un ponte sospeso che unisce due montagne di meringa. Questo ponte non ' di legno, ma ' fatto di un arcobaleno speciale che si accende solo di notte, con sfumature di blu, viola e argento. L'ingegnere che lo ha costruito ha fatto in modo che ogni passo che fai sia soffice come camminare sulla schiuma del cappuccino. Sotto di te, le nuvole scorrono come un fiume di panna montata silenzioso. Ti fermi a met' del ponte e ti appoggi al parapetto, che ' fatto di zucchero filato azzurro. Il cielo intorno ' calmo e protettivo, e sentendo il dondolio leggerissimo del ponte ti lasci andare a un riposo perfetto.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>74. Il Pescatore delle Perle di Nebbia:</summary> 
+            <div class="content">Immagina di essere seduto sul molo di un laghetto dove l'acqua ' fatta di latte tiepido e profumato. Un pescatore gentile lancia una rete fatta di fili di seta sottilissimi e ne tira fuori una manciata di perle lucenti, fatte di nebbia condensata. Ti regala la perla pi' grande: quando la stringi nel palmo della mano, questa si scioglie trasformandosi in una coperta invisibile e caldissima che ti avvolge dalle spalle ai piedi. Il rumore del laghetto ' solo un piccolo 'sciacc' delicato ogni volta che una foglia di menta cade sulla superficie. Ti rannicchi sulla panchina di legno di cannella, sentendo che tutto il mondo intorno si ' fermato per farti riposare.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>75. Il Bibliotecario dei Libri di Piuma:</summary> 
+            <div class="content">Immagina di entrare in una stanza circolare dove gli scaffali sono pieni di libri giganti con le copertine di velluto. Quando il bibliotecario ne apre uno per te, scopri che le pagine sono grandi piume di cigno bianche. Non ci sono parole stampate, ma se appoggi l'orecchio sulla piuma, questa ti sussurra una storia di mondi lontani dove non esiste la stanchezza. Ti siedi al centro della stanza su un tappeto fatto di soffice ovatta color lavanda. Il bibliotecario gira le pagine una a una, creando un fruscio leggero che sembra il respiro del vento tra le foglie in un pomeriggio d'estate, chiudendoti gli occhietti piano piano.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>76. Il Sarto delle Coperte di Polvere di Stelle:</summary> 
+            <div class="content">Immagina un atelier magico dove le finestre si affacciano direttamente sulla scia di una cometa. Un sarto dai capelli d'argento sta cucendo una grande trapunta usando un ago d'oro e un filo fatto di luce lunare. Tra le fibre del tessuto cuce anche un pizzico di polvere di stelle, che brilla di una luce fioca e calda. Ti invita a stenderti su un lettino di petali di magnolia e ti stende sopra la coperta appena finita. Senti immediatamente un calore rassicurante che ti scioglie i muscoli della schiena e del collo. La coperta ' cos' leggera che ti sembra di volare, mentre la stanza si riempie di un profumo dolce di biscotti al burro.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>77. Il Giardiniere dei Gelsomini di Luce:</summary> 
+            <div class="content">Immagina di entrare in una serra fatta di cristallo di zucchero, dove crescono gelsomini giganti con i petali fatti di luce bianca e calda. Il giardiniere ti invita a sederti al centro, su una poltrona di muschio marino che sa di pulito. Ogni volta che un fiore si schiude, fa un suono delicato, come una corda d'arpa sfiorata dal vento, e rilascia una nuvola di profumo di miele. Ti distendi mentre i petali di luce cadono lentamente intorno a te, creando un guscio luminoso che tiene lontano ogni rumore del mondo. Chiudi gli occhi, avvolto in quel calore profumato, sentendo solo la melodia pigra della serra che si addormenta.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>78. Il Pilota del Sommergibile di Vaniglia:</summary> 
+            <div class="content">Immagina di scendere all'interno di un piccolo sommergibile trasparente, rotondo come una bolla e foderato di soffici trapunte di velluto crema. Il pilota accende i motori, che non fanno rumore ma emettono un calmo ronzio che massaggia la schiena. Vi immergete nell'Oceano della Notte, dove l'acqua ' densa e calda come crema alla vaniglia. Attraverso i vetri vedi grandi balene fatte di stelle che nuotano lente, lasciando una scia di brillantini d'oro. Il dondolio del sommergibile nel mare dolce ' cos' regolare e pacifico che ti basta rannicchiarti tra i cuscini per sentire che i tuoi pensieri si sciolgono, leggeri e felici.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>79. Il Custode del Mulino del Vento Calmo:</summary> 
+            <div class="content">Immagina di salire su una collina morbida dove si trova un mulino di pan di zenzero con le pale fatte di pizzo bianco. Il custode ti accoglie sulla terrazza, dove il vento non soffia forte, ma accarezza il viso come una sciarpa di seta tiepida. Le pale del mulino girano lentamente, e ogni volta che fanno un giro completo spargono nell'aria un pizzico di cannella e zucchero a velo. Ti sdrai su un sacco pieno di piume di cigno soffici, guardando le pale che disegnano cerchi ipnotici contro il cielo blu scuro. Il ritmo del mulino diventa il ritmo del tuo respiro, portandoti dritto in un mondo di pace.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>80. L'Orologiaio dei Secondi di Zucchero:</summary> 
+            <div class="content">Immagina di entrare in un laboratorio dove il tempo si misura in dolcezza. L'orologiaio non usa ingranaggi di metallo, ma minuscole gocce di caramello filato che cadono una alla volta in una tazza di latte caldo. Ogni goccia che cade fa un 'plop' ovattato e rallenta il mondo fuori di un pochino. L'artigiano ti fa accomodare su un divano fatto di marshmallow giganti, dove affondi felicemente. Ti regala un ciondolo a forma di clessidra piena di sabbia d'oro e ti dice che, per tutta la notte, il tempo si muover' solo per cullarti. Ascoltando quel battito dolce e lentissimo, chiudi gli occhi sereno.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>81. Il Pittore delle Ombre di Seta:</summary> 
+            <div class="content">Immagina una stanza dove le pareti sono di velluto grigio perla e un pittore gentile usa un pennello intinto nella luce della luna. Non dipinge quadri, ma disegna ombre morbide sui muri che si muovono come gattini di nebbia. Un'ombra accarezza il soffitto, un'altra si rannicchia ai piedi del tuo letto di petali di rosa. Ogni movimento delle ombre ' accompagnato dal profumo dei biscotti appena sfornati. Ti avvolgi in una coperta di lana altissima e guardi la danza silenziosa sulle pareti. Il pittore spegne la luna con un soffio leggero, lasciando solo un calore protettivo che ti accompagna nel sonno pi' profondo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>82. L'Astronauta del Bosco delle Comete:</summary> 
+            <div class="content">Immagina di camminare in una foresta dove gli alberi non crescono sulla terra, ma fluttuano nello spazio aperto. Hanno radici fatte di filamenti d'oro e chiome soffici di nebbia stellare che profumano di pino e vaniglia. Sei un astronauta speciale: non indossi una tuta pesante, ma un pigiama di velluto termico che ti tiene al calduccio. Spingendoti leggermente da un ramo di zucchero, fluttui tra le foglie luminose mentre piccole comete cucciole, morbide come gattini di cotone, ti passano vicino facendoti le fusa. Ti adagi sul ramo pi' alto di un pino cosmico, guardando l'universo intero che brilla piano, mentre il silenzio perfetto dello spazio ti rimbocca le coperte.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>83. L'Orsetto di Marshmallow e la Polvere di Stelle:</summary> 
+            <div class="content">Immagina di addentrarti nel cuore del bosco incantato e di incontrare un grande orso custode, fatto interamente di marshmallow al gusto di fragola. Non parla, ma il suo respiro emette un calmo e rassicurante 'ron-ron'. L'orsetto apre le sue grandi braccia soffici e ti invita a sdraiarti sul suo pancino, che ' tiepido e si modella attorno a te come una nuvola. Mentre ti rilassi, l'orso soffia verso il cielo: dal suo soffio si solleva una nuvola di polvere di stelle color lavanda che scende lenta su di voi, illuminando il bosco di una luce fioca e protettiva. Chiudi gli occhi sentendo il battito lento dell'orso, sicuro che nulla potr' disturbare il tuo riposo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>84. Il Navigatore della Nave-Foglia nel Mare Lunare:</summary> 
+            <div class="content">Immagina una radura dove scorre un fiume fatto di pura luce liquida della luna, che attraversa il bosco per poi salire dritto verso il cielo. Sali a bordo di una nave magica, ricavata da una gigantesca foglia di quercia d'argento foderata di muschio d'ovatta. La foglia si stacca dall'acqua e inizia a navigare verso l'alto, fluttuando tra le costellazioni. Il vento solare ' una brezza tiepida che profuma di camomilla e muove le vele di pizzo della tua imbarcazione. Ti sdrai sul fondo della foglia, guardando i pianeti di marzapane che si allontanano lentamente. Il dondolio tra le stelle ' cos' dolce e regolare che ti addormenti ancor prima di toccare la sponda della Luna.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>85. Il Cerbiatto di Nebbia e i Campanellini Spaziali:</summary> 
+            <div class="content">Immagina di riposare su un prato di trifogli di seta nel bosco incantato, quando dal fitto degli alberi sbuca un cerbiatto speciale. Le sue zampe sono fatte di nebbia leggera e sul manto ha piccole macchie che brillano come galassie lontane. Il cerbiatto si avvicina silenzioso e si sdraia accanto a te, appoggiando il muso tiepido sulla tua mano. Intorno al collo porta un piccolo collare da cui pendono campanellini fatti di cristallo di zucchero spaziale. Ogni volta che si muove appena, i campanellini emettono un suono ovattato e lentissimo, una melodia cosmica che cancella ogni stanchezza dalla tua mente, lasciando solo una profonda sensazione di pace.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>86. Il Custode della Stazione Spaziale di Pan di Zenzero:</summary> 
+            <div class="content">Immagina di viaggiare su una navicella fatta di cristallo e di attraccare a una stazione orbitante fatta interamente di pan di zenzero e glassa reale. Il custode, un vecchio saggio con la barba di zucchero filato, ti accoglie calorosamente e ti conduce alla stanza del riposo. L'obl' della stanza si affaccia su una nebulosa che pulsa lentamente nei toni del rosa e dell'azzurro. Il letto ' un enorme cuscino riempito di piume di fenicottero cosmico, caldissimo e accogliente. Il custode ti offre un bicchiere di latte intergalattico aromatizzato alla cannella e, mentre lo sorseggi, la gravit' diminuisce dolcemente, facendoti fluttuare e sognare in un abbraccio senza peso.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>87. La Civetta d'Argento e l'Eclissi di Cioccolato:</summary> 
+            <div class="content">Immagina di arrampicarti sulla casa sull'albero pi' alta del bosco, dove vive una civetta reale con le piume fatte di fili d'argento purissimo. Ti accoglie nel suo nido, che ' foderato con i tessuti pi' morbidi del regno. Insieme guardate il cielo, dove sta avvenendo un'eclissi magica: la Luna viene dolcemente coperta da un'ombra che profuma di cioccolato caldo e menta. La civetta apre le sue grandi ali e ti avvolge, proteggendoti dal fresco della notte. Inizia poi a cantare una ninnananna a bassissima frequenza, un suono profondo che vibra nel petto e rilassa ogni singolo muscolo, mentre il bosco e lo spazio si fondono in un unico, immenso sogno dorato.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>88. Il Tessitore delle Ragnatele di Cometa:</summary> 
+            <div class="content">Immagina di addentrarti nel bosco dove i rami si intrecciano con il cielo profondo. Qui vive un ragnetto saggio, grande come un cuscino e fatto di soffice velluto lilla. Non tesse ragnatele comuni, ma raccoglie le scie delle comete di passaggio e le unisce ai fili d'erba di seta del bosco. Ti invita a stenderti su una di queste reti magiche sospesa tra due alberi di cannella. La ragnatela d'argento si curva dolcemente sotto il tuo peso, fluttuando nell'aria tiepida che profuma di mirtillo e zucchero filato. Ogni volta che il vento cosmico la sfiora, la rete oscilla come un'amaca segreta, cullandoti tra i profumi della terra e la pace dell'universo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>89. L'Ingegnere dei Binari di Luce Stellare:</summary> 
+            <div class="content">Immagina di trovarti su una piattaforma di pan di zenzero che fluttua tra gli anelli di Saturno, che qui sono fatti di granella di zucchero colorata. Un ingegnere gentile ha costruito una ferrovia invisibile le cui rotaie sono fatte di pura luce stellare calda. Sali su un vagone scoperto che ha i sedili di soffice marshmallow e ti lasci trasportare. Il trenino viaggia senza fretta, scendendo silenzioso verso le chiome degli alberi del bosco incantato. Mentre attraversi la nebbia profumata di vaniglia che unisce lo spazio alla foresta, senti che la stanchezza si dissolve a ogni chilometro, trasformandosi in una scia di brillantini d'oro dietro di te.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>90. La Volpe delle Costellazioni e i Funghi Luminosi:</summary> 
+            <div class="content">Immagina di camminare tra i sentieri del bosco di notte, guidato solo dal chiarore di grandi funghi che crescono sul muschio e brillano di una luce azzurra e calda. Accanto a un ruscello di cioccolato bianco incontri una volpe speciale: il suo pelo ' scuro come il cielo notturno e sul dorso porta disegnate le costellazioni, che brillano piano piano. La volpe si accuccia ai tuoi piedi e ti invita a usarla come un morbido cuscino scaldante. Mentre ti appoggi al suo pelo soffice che profuma di lavanda, le stelle sul suo corpo iniziano a pulsar a ritmo con il tuo respiro, creando un guscio di protezione totale che ti accompagna verso il sonno.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>91. Il Botanico dei Fiori Gravitazionali:</summary> 
+            <div class="content">Immagina una serra segreta nascosta nel cuore del bosco, ma aperta verso il cielo stellato. Il botanico che la cura ha piantato i Fiori di Luna: grandi boccioli argentei che eliminano la gravit' intorno a loro. Quando ti avvicini a uno di essi, il tuo corpo diventa leggero come una piuma. Inizi a fluttuare a un palmo da terra, sopra un letto di petali di rosa giganti che profumano di talco e camomilla. Non c'' pericolo di cadere, l'aria ti sostiene come un abbraccio liquido e tiepido. Il giardino intero emette un sussurro costante, una melodia ipnotica che ti invita a chiudere gli occhietti e a lasciarti fluttuare nel mondo dei sogni.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>92. Il Postino Spaziale dei Gufi di Nebbia:</summary> 
+            <div class="content">Immagina di essere nella torre pi' alta del bosco incantato, dove attraccano i grandi gufi fatti di nebbia stellare. Sono i postini dell'universo e portano messaggi dalle galassie lontane. Un gufo si posa accanto a te e ti consegna una lettera speciale avvolta in un nastro di liquirizia. Quando la apri, non ci sono parole, ma ne esce una melodia dolcissima fatta di campanelli di vetro e un calore rassicurante che sa di biscotti appena sfornati. Il gufo apre la sua grande ala di nebbia calda e ti copre come una trapunta soffice. Sotto quel manto protettivo, il mondo esterno scompare e resta solo il battito calmo del tuo cuore.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>93. Il Custode delle Radici di Sole e Polvere Cosmica:</summary> 
+            <div class="content">Immagina di scendere in una grotta segreta sotto l'albero pi' antico della foresta. Le radici di questo albero affondano cos' profondamente da toccare il cuore caldo della terra, ma rami si estendono fino a catturare la polvere cosmica dello spazio. Il custode ti fa accomodare in un nido ricavato tra due radici, foderato di muschio d'ovatta altissimo. Qui l'aria ' perfettamente temperata e profuma di legno di sandalo e miele. Attraverso le venature del legno scorre una luce dorata e rilassante che massaggia dolcemente la tua schiena. Senti che l'energia dell'intero universo si muove solo per proteggerti e cullarti, regalandoti la notte pi' serena che tu abbia mai vissuto.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>94. Il Collaudatore dei Trenini di Nuvola sul Fiume di Miele:</summary> 
+            <div class="content">Immagina di trovarti nel Regno delle Acque Dolci, dove le sponde dei fiumi sono fatte di biscotto e l'acqua ' calda e densa come miele millefiori. Sul fiume galleggia un binario di liquirizia morbida. Tu sei il collaudatore di un trenino speciale, appena costruito nella Fabbrica dei Giocattoli di Nuvola: i suoi vagoni sono fatti di soffice ovatta azzurra che profuma di talco. Ti sdrai all'interno del vagone principale, che si modella perfettamente intorno al tuo corpo come un grande abbraccio. Il trenino scivola sul miele senza fare rumore, emettendo solo un piccolo 'fshhh' rilassante. Lo scorrere lento della corrente e la morbidezza della nuvola ti cullano, portando via ogni pensiero.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>95. Il Castoro della Fabbrica di Peluche e la Cascata di Cioccolato:</summary> 
+            <div class="content">Immagina di entrare in un mulino di pan di zenzero nel cuore del bosco incantato, dove un castoro gentile con gli occhiali d'oro cuce orsetti di peluche giganti. All'interno della fabbrica non ci sono macchine, ma solo il rumore soffice di forbici che tagliano il velluto. Il castoro ti regala un orsetto appena finito, riempito di piume di cigno calde, e ti invita a sederti vicino alla finestra. Fuori, una cascata di cioccolato al latte tiepido scende lenta da una montagna di meringa, creando un vapore dolce che profuma di vaniglia. Abbracci il tuo peluche, senti il suo calore rassicurante e ti lasci cullare dal suono ritmico e ovattato della cascata.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>96. La Balena di Spugna e il Pittore dell'Oceano di Seta:</summary> 
+            <div class="content">Immagina di galleggiare su una barchetta di carta velina nell'Oceano della Calma. Sotto di te nuota una balena gigante che non ' fatta di carne, ma di una spugna morbida color lavanda. Accanto a voi c'' il Pittore del Cielo, che usa un pennello fatto di raggio di luna per dipingere l'acqua, trasformandola in un immenso lenzuolo di seta azzurra. La balena emerge piano piano e ti invita a salire sulla sua schiena, che ' tiepida e asciutta. Ti sdrai sul velluto della seta, mentre la balena emette un canto profondo e lentissimo attraverso l'acqua. ' una ninnananna marina che vibra dolcemente nel tuo petto, rilassando ogni muscolo fino a farti addormentare.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>97. L'Astronauta del Laghetto delle Ninfee di Zucchero:</summary> 
+            <div class="content">Immagina di atterrare con la tua navicella di cristallo su un piccolo pianeta fatto interamente di muschio verde smeraldo. Al centro c'' un laghetto di acqua di rose dove galleggiano ninfee giganti fatte di zucchero filato rosa. Non c'' gravit' forte, quindi ti lasci scivolare dalla navicella e fluttui piano piano verso il centro del laghetto. Ti posi delicatamente sul cuore soffice di una ninfea, che emana un calore dolce e profuma di fragole fresche. Il cielo sopra di te ' una trapunta di costellazioni che si accendono e si spengono come piccole lampadine da notte. Sospeso tra l'acqua profumata e lo spazio profondo, chiudi gli occhi in un silenzio perfetto.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>98. Il Procione Orologiaio dei Giocattoli che Sussurrano:</summary> 
+            <div class="content">Immagina una casetta di corteccia d'albero nascosta tra le radici del bosco incantato. Qui vive un procione artigiano che ripara i giocattoli della Fabbrica di Nuvola. Nella sua bottega, gli orologi da taschino sono fatti di cioccolato bianco e i carillon suonano solo note lentissime di arpa. Il procione ti porge un carillon a forma di stella marina e lo carica con una chiavetta d'oro. Il giocattolo inizia a girare sul tavolo di legno di cannella, diffondendo nell'aria un profumo di biscotti e un sussurro dolcissimo che dice: '' ora di riposare, tutto ' calmo'. Ti rannicchi su un tappeto di lana altissima, ascoltando quel sussurro fino a sentirti completamente al sicuro.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>99. Il Guardiano del Faro di Vetro e la Nebbia di Menta:</summary> 
+            <div class="content">Immagina un faro altissimo che svetta nel punto in cui il Regno delle Acque Dulci incontra lo Spazio Stellato. Il faro ' fatto di vetro soffiato e la sua luce ' un raggio dorato e caldo che si muove lentamente come una carezza. Il guardiano ti accoglie in cima, dove il pavimento ' coperto da soffici cuscini di marshmallow. Fuori dalla vetrata, una nebbia leggera al profumo di menta selvatica sale dal fiume e avvolge la torre, isolandola da tutto il resto del mondo. Ti sdrai a guardare il raggio del faro che fende la nebbia e illumina le stelle lontane. Il mondo fuori scompare, lasciando solo una sensazione di pace infinita e calore protettivo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>100. L'Ippopotamo di Panna e il Fiume di Sciroppo d'Acero:</summary> 
+            <div class="content">Immagina di passeggiare lungo le sponde del Regno delle Acque Dulci, dove la sabbia ' fatta di zucchero di canna caldo che ti solletica i piedi. Dal fiume, che scorre lento come sciroppo d'acero tiepido, emerge un ippopotamo gigante fatto interamente di panna montata solidificata. Non ' pesante, ma ' soffice come un grande cuscino e profuma di meringa. Ti invita a salire sulla sua schiena e si lascia trasportare dalla corrente del fiume, che non fa rumore ma emette un dolce 'shhh' ogni volta che tocca le sponde di biscotto. Ti sdrai sul dorso pannoso dell'ippopotamo, guardando il cielo notturno che si colora di sfumature color pesca, sentendoti completamente leggero e cullato.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>101. L'Astronauta della Fabbrica di Trottole di Luce:</summary> 
+            <div class="content">Immagina di fluttuare all'interno di una stazione spaziale costruita dentro una nuvola gigante, dove si fabbricano i giocattoli per le stelle. Un astronauta gentile ti mostra le nuove trottole di cristallo di zucchero: quando le fai girare sui tavoli di marshmallow, non fanno rumore, ma proiettano sulle pareti disegni di foreste incantate e pianeti di cioccolato. L'astronauta ti fa accomodare su una poltrona sospesa fatta di fili di seta intrecciati, che dondola dolcemente senza peso. Ti regala una piccola trottola che emana un calore rilassante e un profumo di cioccolata calda. La stanza si riempie di una luce soffusa e dorata che si muove lentamente, invitando i tuoi occhi a chiudersi in un sonno calmo e profondo.</div> 
+        </details> 
+        <details name="storie"> 
+            <summary>102. Il Gufo di Velluto e il Custode del Lago di Lavanda:</summary> 
+            <div class="content">Immagina di arrivare al centro del bosco incantato, dove si trova un lago segreto la cui acqua ' fatta di una pozione tiepida color lavanda che profuma di pulito. Il custode del lago ti accoglie su una palafitta di legno di cannella e ti fa strada verso un letto fatto di piume di cigno e petali di viola. Sul soffitto della capanna ' appollaiato un grande gufo con le ali di velluto blu notte. Il gufo inizia a battere le ali con una lentezza ipnotica, creando una brezza leggera che diffonde il profumo del lago in ogni angolo della stanza. Il custode spegne la lanterna di miele, lasciando solo il riflesso della luna sull'acqua che danza sul soffitto, mentre la ninnananna del gufo ti accompagna nel mondo dei sogni.</div> 
+        </details> 
+    </div> 
+</body> 
+<script>
+	if ('serviceWorker' in navigator) { navigator.serviceWorker.register('./sw.js'); }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        // 1. Cerca se c'è un titolo salvato in memoria
+        const ultimaStoriaAperta = localStorage.getItem("ultimaStoriaLetta");
+
+        if (ultimaStoriaAperta) {
+            // Cerca l'accordion che contiene esattamente quel titolo
+            const summaries = document.querySelectorAll("summary");
+            for (let summary of summaries) {
+                if (summary.textContent.trim() === ultimaStoriaAperta) {
+                    const dettagli = summary.closest("details");
+                    if (dettagli) {
+                        dettagli.open = true; // Riapre l'accordion
+                        // Scorre delicatamente la pagina fino alla storia ricordata
+                        setTimeout(() => {
+                            dettagli.scrollIntoView({ behavior: "smooth", block: "start" });
+                        }, 100);
+                    }
+                    break;
+                }
+            }
+        }
+
+        // 2. Resta in ascolto sui cambi di stato di TUTTI gli accordion
+        document.querySelectorAll("details").forEach((accordion) => {
+            accordion.addEventListener("toggle", () => {
+                const titolo = accordion.querySelector("summary").textContent.trim();
+                
+                if (accordion.open) {
+                    // Se l'utente apre la storia, salvala in memoria
+                    localStorage.setItem("ultimaStoriaLetta", titolo);
+                } else {
+                    // Se l'utente chiude la storia attiva, pulisci la memoria
+                    if (localStorage.getItem("ultimaStoriaLetta") === titolo) {
+                        localStorage.removeItem("ultimaStoriaLetta");
+                    }
+                }
+            });
+        });
+    });
+</script>
+
+</html> 
