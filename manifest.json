@@ -1,5 +1,5 @@
 {
-  "name": "Le Mie Storie",
+  "name": "Le Mie Storie per Bambini",
   "short_name": "Storie",
   "start_url": "index.html",
   "display": "standalone",
@@ -9,9 +9,8 @@
   "icons": [
     {
       "src": "icon.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "sizes": "980x980",
+      "type": "image/png"
     }
   ]
 }
