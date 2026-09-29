@@ -433,12 +433,14 @@
 </body> 
 <script>
 	 // REGISTRAZIONE SERVICE WORKER (Ottimizzata per sottocartelle GitHub)
-        if ('serviceWorker' in navigator) {
+    window.onload = () => { 
+	'use strict'; 
+	if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js')
                 .then(() => console.log("Service Worker Registrato con successo!"))
                 .catch(err => console.error("Errore registrazione Service Worker:", err));
         }
-
+	}
         // LOGICA DI MEMORIZZAZIONE ACCORDION (Android + iOS)
         document.addEventListener("DOMContentLoaded", () => {
             function getCookie(name) {
